@@ -1,7 +1,7 @@
 
 const KeyFeatures = () => {
     return (
-        <div className="mx-auto px-10 my-20">
+        <div className="mx-auto lg:px-10 md:px-3 lg:my-20 md:my-5">
             <div>
                 <h1 className="font-bold text-4xl text-center text-yellow-500 mb-10">Key Features</h1>
             </div>
