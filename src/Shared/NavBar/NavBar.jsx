@@ -9,7 +9,7 @@ const NavBar = () => {
     </>
 
     return (
-        <div>
+        <nav className="px-5">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -28,10 +28,10 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Login</a>
+                    <a className="btn btn-primary bg-yellow-500 hover:bg-white text-black font-bold border-none">Login</a>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 
